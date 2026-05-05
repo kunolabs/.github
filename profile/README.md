@@ -1,17 +1,28 @@
 # Kuno Labs
 
-Local-first tools for AI-assisted development.
+![Kuno Labs](assets/kunolabs-banner.svg)
 
-We build small, inspectable developer tools that help agents spend less context on repo discovery and more on actual work.
+Local-first developer tools for AI coding agents.
 
-## Projects
+We build compact, inspectable systems that help agents understand a repository before they spend a large context window reading it. The focus is practical: smaller prompts, clearer maps, safer local artifacts, and tooling that stays fast enough to use during real work.
 
-- [CodePrism](https://github.com/kunolabs/codeprism) - local-first codebase maps, compact context packs, and visual traces for AI coding agents.
-- Cortext Lab - private development lab for experiments before public release.
+## Active Project
 
-## Principles
+| Project | Status | Focus |
+| --- | --- | --- |
+| [CodePrism](https://github.com/kunolabs/codeprism) | Alpha | Local codebase maps, focused context slices, and optional visual replay for AI coding agents. |
 
-- Local-first, inspectable artifacts.
-- Measured benchmarks over hype.
-- Cross-platform CLI ergonomics.
-- Token efficiency as a product constraint.
+Early local runs have reduced estimated source context by roughly 78-99% depending on repo size and query scope. The numbers are estimates, but the workflow is simple: map first, slice next, read raw files only when they matter.
+
+## What We Care About
+
+- Local-first tools with no network calls by default.
+- Inspectable text, JSON, SQLite, and HTML artifacts.
+- Deterministic static parsing before model-generated summaries.
+- Measured benchmarks over viral claims.
+- Cross-platform CLI behavior for Windows, macOS, and Linux.
+
+## Links
+
+- [CodePrism repository](https://github.com/kunolabs/codeprism)
+- [CodePrism README](https://github.com/kunolabs/codeprism#readme)
